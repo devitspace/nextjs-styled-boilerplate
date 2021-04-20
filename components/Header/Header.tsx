@@ -17,5 +17,5 @@ interface Props {
 }
 
 export default memo(function Header({ title }: Props) {
-  return <StyledHeader>{title ? title : 'Test'}</StyledHeader>
+  return <StyledHeader>{title ?? 'Test'}</StyledHeader>
 })
