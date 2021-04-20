@@ -8,7 +8,7 @@ Bootstrap a developer-friendly NextJS app configured with:
 - [**husky**](https://github.com/typicode/husky) for linting, typechecking and formatting with commit hooks
 - [**Jest**](https://jestjs.io/) and [**react-testing-library**](https://testing-library.com/docs/react-testing-library/intro) for testing
 - [**Styled Components**](https://styled-components.com/) for CSS-in-JS styling and theming
-- [**Storybook**](https://storybook.js.org/) with a "theme getter" (`t("colors.white.1000")`)
+- [**Storybook**](https://storybook.js.org/)
 - [**Google Fonts**](https://fonts.google.com) setup in NextJS app and Storybook
 - [**Conventional Commits**](https://www.conventionalcommits.org/en/v1.0.0/) for easy commits that follow conventional standard.
 
@@ -16,12 +16,13 @@ Bootstrap a developer-friendly NextJS app configured with:
 
 Deploy the example using [Vercel](https://vercel.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/whoisryosuke/next-styled-storybook-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/devitspace/nextjs-styled-boilerplate)
 
 ## How to use
 
 1. Clone project: `git clone REPO_URL`
 2. Install dependencies: `yarn`
+3. Setup husky `yarn prepare`
 
 Now you have 2 main options:
 
