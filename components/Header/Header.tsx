@@ -1,15 +1,16 @@
 import React, { memo } from 'react'
 import styled from 'styled-components'
-import { t } from '../../utils/getTheme'
+import theme from '../../themes/currentTheme'
 
 const StyledHeader = styled.div`
   width: 100%;
   height: 30px;
   border-bottom: 1px solid black;
   padding: 8px;
-  background: ${t('colors.white.off')};
-  font-family: ${t('fonts.header')};
-  font-size: ${t('fontSizes.2')};
+  background: ${theme.palette.accentColor};
+  font-size: ${theme.typography.h1.size};
+  font-family: ${theme.typography.h1.family};
+  font-style: ${theme.typography.h1.style};
 `
 
 interface Props {

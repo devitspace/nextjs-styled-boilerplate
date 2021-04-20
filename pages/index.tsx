@@ -41,7 +41,7 @@ export const Home = (): JSX.Element => (
         <Link href="https://nextjs.org">Next.js!</Link>
       </Title>
 
-      <Paragraph className="description">
+      <Paragraph>
         Get started by editing {` `}
         <Code>pages/index.tsx</Code>
       </Paragraph>

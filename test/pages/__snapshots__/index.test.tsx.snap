@@ -17,7 +17,7 @@ exports[`Home page matches snapshot 1`] = `
       </a>
     </h1>
     <p
-      class="pages__Paragraph-mdoJY jYLFVg description"
+      class="pages__Paragraph-mdoJY jYLFVg"
     >
       Get started by editing  
       <code
