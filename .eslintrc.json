@@ -1,7 +1,7 @@
 {
   "env": {
     "browser": true,
-    "es2021": true,
+    "es2020": true,
     "node": true,
     "jest": true
   },
@@ -11,7 +11,6 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
-    "prettier/@typescript-eslint",
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript",

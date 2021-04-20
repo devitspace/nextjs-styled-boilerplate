@@ -1,9 +1,12 @@
 import { ThemeProvider } from 'styled-components'
-import theme from '../themes/light'
+import GlobalStyle from '../styles/shared'
+import { theme } from '../themes/light'
 
-export default function App({ Component, pageProps }) {
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+export default function App({ Component, pageProps }): JSX.Element {
   return (
     <>
+      <GlobalStyle />
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
       </ThemeProvider>
